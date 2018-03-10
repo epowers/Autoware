@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(OpenCV REQUIRED)
+find_package(Qt5Core)
 find_package(PCL)
 
 catkin_package(CATKIN_DEPENDS
